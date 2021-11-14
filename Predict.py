@@ -28,6 +28,7 @@ st.markdown("""
         <a class="nav-link" href="https://www.linkedin.com/in/youssefsultan/" target="_blank">LinkedIn</a>
       </li>
       <li class="nav-item">
+        <a class="nav-link" href="https://github.com/YoussefSultan" target="_blank">GitHub</a>
       </li>
     </ul>
   </div>
