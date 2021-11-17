@@ -12,7 +12,7 @@ from streamlit.script_runner import StopException
 st.set_page_config(page_title = "Body Fat Percentage Calculator", page_icon = 'https://store-images.s-microsoft.com/image/apps.59154.13510798882997587.2b08aa2f-aa3f-4d80-a325-a658dbc1145a.2829662d-e5e1-4fdd-bd00-29895e686f94', layout="wide") 
 st.markdown('<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">', unsafe_allow_html=True)
 st.title("Body Fat Percentage Prediction")
-st.write("""### We need some information to predict your Bodyfat Percentage""") 
+st.write("""### We need some information to predict your Body Fat Percentage""") 
 st.markdown("""
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #7454DB;">
   <a class="navbar-brand" target="_blank">Youssef Sultan</a>
