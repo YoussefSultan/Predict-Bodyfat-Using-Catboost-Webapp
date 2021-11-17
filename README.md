@@ -4,9 +4,8 @@
 <p align="center">
     <a href="#readme">
         <img alt="logo" width="180%" src="https://i.gyazo.com/819add2469d22ce5886a115b7f80b28b.png">
-        <img alt="logo" width="100%" src="https://i.gyazo.com/38c2985365461bb75917678953a6afae.mp4">
     </a>
-
+![](https://i.gyazo.com/38c2985365461bb75917678953a6afae.mp4)
 ---
 
 **Body Fat Percentage Predictor**, Gathers body attributes to make a prediction on your bodyfat percentage based on previous data of recorded participants utilizing hydrostatic weighing. Additionally, the model has been deployed end to end using Streamlit, for testing and further research for applicability. 
