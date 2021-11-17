@@ -146,7 +146,7 @@ else:
     for i in range(100):
       progress_bar.progress(i + 1) 
       new_rows = np.random.randn(0,15)
-      status_text.text(f"Estimated Bodyfat percentage: {percent[0]:.2f}%")
+      status_text.text(f"Estimated Body Fat Percentage: {percent[0]:.2f}%")
       time.sleep(0.00001)   
   else:
     with c3:  
@@ -237,7 +237,7 @@ else:
         for i in range(100):
           progress_bar.progress(i + 1)
           new_rows = np.random.randn(0,15)
-          status_text.text(f"Estimated Bodyfat percentage: {percent[0]:.2f}%")
+          status_text.text(f"Estimated Body Fat Percentage: {percent[0]:.2f}%")
           time.sleep(0.00001)
     elif all:
       X = np.array([[Weight/Abdomen, Height/Abdomen, Neck/Abdomen, Chest/Abdomen, Hip/Abdomen, Thigh/Abdomen, Knee/Abdomen, Ankle/Abdomen, Biceps/Abdomen, Forearm/Abdomen, Wrist/Abdomen, Age, Abdomen]])
@@ -247,7 +247,7 @@ else:
       progress_bar = st.progress(100)
       status_text = st.empty()
       new_rows = np.random.randn(0,15)
-      status_text.text(f"Estimated Bodyfat percentage: {percent[0]:.2f}%")
+      status_text.text(f"Estimated Body Fat Percentage: {percent[0]:.2f}%")
       time.sleep(0.00000)   
     else:
       PlotbyWeightE(1)
