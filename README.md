@@ -3,7 +3,7 @@
 
 <p align="center">
     <a href="#readme">
-        <img alt="logo" width="180%" src="https://i.gyazo.com/819add2469d22ce5886a115b7f80b28b.png">
+        <a href="https://gyazo.com/88b28e70f4de7b10d52e370795170abf"><img src="https://i.gyazo.com/88b28e70f4de7b10d52e370795170abf.gif" alt="Image from Gyazo" width="1280"/></a>
     </a>
 <a href="https://gyazo.com/38c2985365461bb75917678953a6afae"><img src="https://i.gyazo.com/38c2985365461bb75917678953a6afae.gif" alt="Image from Gyazo" width="720"/></a>
 
