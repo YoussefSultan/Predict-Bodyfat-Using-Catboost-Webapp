@@ -1,13 +1,3 @@
-
-
-
-<p align="center">
-    <a href="#readme">
-        <a href="https://gyazo.com/88b28e70f4de7b10d52e370795170abf"><img src="https://i.gyazo.com/88b28e70f4de7b10d52e370795170abf.gif" alt="Image from Gyazo" width="1280"/></a>
-    </a>
-<a href="https://gyazo.com/38c2985365461bb75917678953a6afae"><img src="https://i.gyazo.com/38c2985365461bb75917678953a6afae.gif" alt="Image from Gyazo" width="720"/></a>
-
-
 **Body Fat Percentage Predictor**, Gathers body attributes to make a prediction on your bodyfat percentage based on previous data of recorded participants utilizing hydrostatic weighing. Additionally, the model has been deployed end to end using Streamlit, for testing and further research for applicability. 
 
 EDA: [BodyFat_Prediction.ipynb](https://github.com/YoussefSultan/Predict-Bodyfat-Using-Catboost-Webapp/blob/main/BodyFat_Prediction.ipynb)
@@ -17,6 +7,15 @@ Tableau Dashboard: [Tableau Public](https://public.tableau.com/views/BodyFatComp
 - Variable distribution analysis 
 - Outlier detection and feature engineering
 - Model hyperparameter tuning and training
+
+
+<p align="center">
+    <a href="#readme">
+        <a href="https://gyazo.com/88b28e70f4de7b10d52e370795170abf"><img src="https://i.gyazo.com/88b28e70f4de7b10d52e370795170abf.gif" alt="Image from Gyazo" width="1280"/></a>
+    </a>
+<a href="https://gyazo.com/38c2985365461bb75917678953a6afae"><img src="https://i.gyazo.com/38c2985365461bb75917678953a6afae.gif" alt="Image from Gyazo" width="720"/></a>
+
+
 
 ## Results
 
