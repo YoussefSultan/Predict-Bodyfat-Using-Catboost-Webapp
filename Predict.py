@@ -28,10 +28,10 @@ st.markdown("""
         <a class="nav-link" href="https://public.tableau.com/views/BodyFatCompositioninMenfromHydrostaticWeighing/DashboardABD?:language=en-US&:display_count=n&:origin=viz_share_link"  target="_blank">Tableau Dashboard Version<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="https://github.com/YoussefSultan" target="_blank">LinkedIn</a>
+        <a class="nav-link" href="https://github.com/YoussefSultan" target="_blank">GitHub</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="https://www.linkedin.com/in/youssefsultan/" target="_blank">GitHub</a>
+        <a class="nav-link" href="https://www.linkedin.com/in/youssefsultan/" target="_blank">LinkedIn</a>
       </li>
     </ul>
   </div>
