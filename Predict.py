@@ -9,9 +9,9 @@ import cufflinks
 import plotly.express as px
 from streamlit.script_runner import StopException
 #-----------Title/Header---------------------------------------------------------------#
-st.set_page_config(page_title = "Bodyfat Percentage Calculator", page_icon = 'https://store-images.s-microsoft.com/image/apps.59154.13510798882997587.2b08aa2f-aa3f-4d80-a325-a658dbc1145a.2829662d-e5e1-4fdd-bd00-29895e686f94', layout="wide") 
+st.set_page_config(page_title = "Body Fat Percentage Calculator", page_icon = 'https://store-images.s-microsoft.com/image/apps.59154.13510798882997587.2b08aa2f-aa3f-4d80-a325-a658dbc1145a.2829662d-e5e1-4fdd-bd00-29895e686f94', layout="wide") 
 st.markdown('<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">', unsafe_allow_html=True)
-st.title("Bodyfat Percentage Prediction")
+st.title("Body Fat Percentage Prediction")
 st.write("""### We need some information to predict your Bodyfat Percentage""") 
 st.markdown("""
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #7454DB;">
@@ -22,13 +22,16 @@ st.markdown("""
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link disabled" href="#">Bodyfat Percentage Calculator<span class="sr-only">(current)</span></a>
+        <a class="nav-link disabled" href="#">BF % Calc<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="https://www.linkedin.com/in/youssefsultan/" target="_blank">LinkedIn</a>
+        <a class="nav-link" href="https://public.tableau.com/views/BodyFatCompositioninMenfromHydrostaticWeighing/DashboardABD?:language=en-US&:display_count=n&:origin=viz_share_link"  target="_blank">Tableau Dashboard Version<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="https://github.com/YoussefSultan" target="_blank">GitHub</a>
+        <a class="nav-link" href="https://github.com/YoussefSultan" target="_blank">LinkedIn</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.linkedin.com/in/youssefsultan/" target="_blank">GitHub</a>
       </li>
     </ul>
   </div>
@@ -50,12 +53,12 @@ e = 0
 #--------------------------------------------------------------------------------------#
 #-----------Define BodyFat Graph Functions---------------------------------------------#
 def PlotbyWeight(Weight): #All Weight Classes
-    fig = px.scatter_3d(df, x='BodyFat', y='Height', z='Age', color='Weight', title="Bodyfat % compared to others in all weight classes")
+    fig = px.scatter_3d(df, x='BodyFat', y='Height', z='Age', color='Weight', title="Body Fat % compared to others in all weight classes")
     with c1: 
         return st.plotly_chart(fig) 
 def PlotbyWeight2(Weight): # Your Specific Weight Class Entered
 
-    fig2 = px.scatter_3d(q, x='BodyFat', y='Height', z='Age', color='Weight', title=f"Bodyfat % compared to others in weight class of {txt}")
+    fig2 = px.scatter_3d(q, x='BodyFat', y='Height', z='Age', color='Weight', title=f"Body Fat % compared to others in weight class of {txt}")
     
     with c1: 
         return st.plotly_chart(fig2) 
