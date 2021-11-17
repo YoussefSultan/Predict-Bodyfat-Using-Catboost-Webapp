@@ -3,12 +3,13 @@
 
 <p align="center">
     <a href="#readme">
-        <img alt="logo" width="180%" src="https://i.gyazo.com/8d74e2b63a6093ab6add7a2b18c34337.png">
+        <img alt="logo" width="180%" src="https://i.gyazo.com/819add2469d22ce5886a115b7f80b28b.png">
+        <img alt="logo" width="100%" src="https://i.gyazo.com/38c2985365461bb75917678953a6afae.mp4">
     </a>
 
 ---
 
-**Bodyfat Percentage Predictor**, Gathers body attributes to make a prediction on your bodyfat percentage based on previous data of recorded participants utilizing hydrostatic weighing. Additionally, the model has been deployed end to end using Streamlit, for testing and further research for applicability. 
+**Body Fat Percentage Predictor**, Gathers body attributes to make a prediction on your bodyfat percentage based on previous data of recorded participants utilizing hydrostatic weighing. Additionally, the model has been deployed end to end using Streamlit, for testing and further research for applicability. 
 
 EDA: [BodyFat_Prediction.ipynb](https://github.com/YoussefSultan/Predict-Bodyfat-Using-Catboost-Webapp/blob/main/BodyFat_Prediction.ipynb)
 Deployment: [Streamlit Webapp](https://share.streamlit.io/youssefsultan/predict-bodyfat-using-catboost-webapp/main/Predict.py)
