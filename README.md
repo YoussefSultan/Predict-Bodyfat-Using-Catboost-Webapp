@@ -9,11 +9,6 @@
 - Tableau Dashboard: 
 [Tableau Public](https://public.tableau.com/views/BodyFatCompositioninMenfromHydrostaticWeighing/DashboardABD?:language=en-US&:display_count=n&:origin=viz_share_link) or [Download](https://github.com/YoussefSultan/Predict-Bodyfat-Using-Catboost-Webapp/blob/main/BF_Analysis_Dashboard_Tableau.twb)<br/>
 
-- Variable correlation testing
-- Variable distribution analysis 
-- Outlier detection and feature engineering
-- Model hyperparameter tuning and training
-
 
 <p align="center">
     <a href="#readme">
@@ -22,6 +17,12 @@
 <a href="https://gyazo.com/38c2985365461bb75917678953a6afae"><img src="https://i.gyazo.com/38c2985365461bb75917678953a6afae.gif" alt="Image from Gyazo" width="720"/></a>
 
 
+## Application
+
+- Variable correlation testing
+- Variable distribution analysis 
+- Outlier detection and feature engineering
+- Model hyperparameter tuning and training
 
 ## Results
 
