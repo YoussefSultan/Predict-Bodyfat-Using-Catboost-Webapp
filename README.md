@@ -1,13 +1,13 @@
 **Body Fat Percentage Predictor**: gathers body attributes to make a prediction on your bodyfat percentage based on previous data of recorded participants utilizing hydrostatic weighing. Additionally, the model has been deployed end to end using Streamlit, for testing and further research for applicability. 
 
 Original Dataset: 
-[Kaggle Link](https://www.kaggle.com/fedesoriano/body-fat-prediction-dataset)
+[Kaggle Link](https://www.kaggle.com/fedesoriano/body-fat-prediction-dataset)\n
 EDA: 
-[BodyFat_Prediction.ipynb](https://github.com/YoussefSultan/Predict-Bodyfat-Using-Catboost-Webapp/blob/main/BodyFat_Prediction.ipynb)
+[BodyFat_Prediction.ipynb](https://github.com/YoussefSultan/Predict-Bodyfat-Using-Catboost-Webapp/blob/main/BodyFat_Prediction.ipynb)\n
 Deployment: 
-[Streamlit Webapp](https://share.streamlit.io/youssefsultan/predict-bodyfat-using-catboost-webapp/main/Predict.py)
+[Streamlit Webapp](https://share.streamlit.io/youssefsultan/predict-bodyfat-using-catboost-webapp/main/Predict.py)\n
 Tableau Dashboard: 
-[Tableau Public](https://public.tableau.com/views/BodyFatCompositioninMenfromHydrostaticWeighing/DashboardABD?:language=en-US&:display_count=n&:origin=viz_share_link) or [Download](https://github.com/YoussefSultan/Predict-Bodyfat-Using-Catboost-Webapp/blob/main/BF_Analysis_Dashboard_Tableau.twb)
+[Tableau Public](https://public.tableau.com/views/BodyFatCompositioninMenfromHydrostaticWeighing/DashboardABD?:language=en-US&:display_count=n&:origin=viz_share_link) or [Download](https://github.com/YoussefSultan/Predict-Bodyfat-Using-Catboost-Webapp/blob/main/BF_Analysis_Dashboard_Tableau.twb)\n
 
 - Variable correlation testing
 - Variable distribution analysis 
